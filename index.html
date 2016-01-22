@@ -1,0 +1,57 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="btnsetting.css">
+  <script  src="btnfuctions.js"></script>
+  <script  src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+  <meta charset="UTF-8">
+</head>
+<body class="background">
+  <div id="container">
+     <div id="calculator">
+        <div id="title-1" class="text-center"><h1>Calculator</h1></div>
+        <div id="title-2" class="text-center"><h4>ELECTRONIC CALCULATOR</h4></div>
+        <div id="screen"><p id="sc">123</p></div>
+        <br>
+        <br>
+        <div class="btn_row">
+          <div class="pre_fix"></div>
+          <div id="b_AC"     onClick="func_AC()"          class="cal_buttons"><img class="btnImgR"/><p class="btnwordR">AC</p></div>
+          <div id="b_CE"     onClick="func_CE()"          class="cal_buttons"><img class="btnImgR"/><p class="btnwordR">CE</p></div>
+          <div id="b_mod"    onClick="operator('mod')"    class="cal_buttons"><img class="btnImg"/><p class="btnword">%</p></div>
+          <div id="b_divi"   onClick="operator('divi')"   class="cal_buttons"><img class="btnImg"/><p class="btnword">÷</p></div>
+        </div>
+        <div class="btn_row">
+          <div class="pre_fix"></div>
+          <div id="b_7"      onClick="func_n('7')"   class="cal_buttons"><img class="btnImg"/><p class="btnword">7</p></div>
+          <div id="b_8"      onClick="func_n('8')"   class="cal_buttons"><img class="btnImg"/><p class="btnword">8</p></div>
+          <div id="b_9"      onClick="func_n('9')"   class="cal_buttons"><img class="btnImg"/><p class="btnword">9</p></div>
+          <div id="b_multip" onClick="operator('multip')" class="cal_buttons"><img class="btnImg"/><p class="btnword">×</p></div>
+        </div>
+        <div class="btn_row">
+          <div class="pre_fix"></div>
+          <div id="b_4"      onClick="func_n('4')"   class="cal_buttons"><img class="btnImg"/><p class="btnword">4</p></div>
+          <div id="b_5"      onClick="func_n('5')"   class="cal_buttons"><img class="btnImg"/><p class="btnword">5</p></div>
+          <div id="b_6"      onClick="func_n('6')"   class="cal_buttons"><img class="btnImg"/><p class="btnword">6</p></div>
+          <div id="b_minus"  onClick="operator('minus')"  class="cal_buttons"><img class="btnImg"/><p class="btnword">−</p></div>
+        </div>
+        
+        <div style="display:inline;">
+          <div class="btn_row">
+            <div class="pre_fix"></div>
+            <div id="b_1"    onClick="func_n('1')"   class="cal_buttons"><img class="btnImg"/><p class="btnword">1</p></div>
+            <div id="b_2"    onClick="func_n('2')"   class="cal_buttons"><img class="btnImg"/><p class="btnword">2</p></div>
+            <div id="b_3"    onClick="func_n('3')"   class="cal_buttons"><img class="btnImg"/><p class="btnword">3</p></div>
+          </div>
+        
+          <div class="btn_row">
+            <div class="pre_fix"></div>
+            <div id="b_0"     onClick="func_n('0')"  class="cal_buttons"><img class="btnImg"/><p class="btnword">0</p></div>
+            <div id="b_dot"   onClick="func_dot()"   class="cal_buttons"><img class="btnImg"/><p class="btnword">&nbsp.</p></div>
+            <div id="b_equal" onClick="func_equal()" class="cal_buttons"><img class="btnImg"/><p class="btnword">=</p></div>
+          </div>
+        </div>
+            <div  id="b_plus" onClick="operator('plus')"  class="btnBig"><img class="btnImgBig"/><p class="btnwordBig">+</p></div>
+      </div>
+  </div>
+</body>

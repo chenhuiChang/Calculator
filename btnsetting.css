@@ -1,0 +1,100 @@
+.background{
+  background-color:#445;
+}
+#container{
+  width:auto;
+  height:700px;
+  border-style:solid;
+}
+#calculator{
+  background-image: url(http://i.imgur.com/UXnjASv.png);
+  position:relative;
+  height:500px;
+  width: 400px;
+  top:   40px;
+  margin: auto;
+  border-radius:4%;
+  box-shadow: 5px 5px 4px 3px rgba(0,0,0,0.2),-5px 5px 4px 3px rgba(0,0,0,0.3)
+              ,-5px -5px 4px 1px rgba(0,0,0,0.15) inset,5px -5px 4px 1px rgba(0,0,0,0.15) inset;
+}
+#screen{
+  background-color:#999;
+  height:50px;
+  width: 350px;
+  margin: auto;
+  border-radius:4%;
+  box-shadow: 2px 2px 1px rgba(0,0,0,0.15) inset,-1px -1px 0px rgba(0,0,0,0.12) inset;
+}
+#sc{
+  font-size: 32px;
+  text-align:right;
+}
+.pre_fix{
+  display: inline-block;
+  width:30px;
+}
+.cal_buttons{
+  cursor: pointer;
+  display: inline-block;
+  height:40px;
+  width:80px;
+}
+.btnword{
+  color:white;
+  font-size:20px;
+  display:inline;
+  position:relative;
+  top:-35px;
+  left:30px;
+}
+.btnImg{
+ /*content:url(http://i.imgur.com/X1yQpBO.jpg);*/
+ background-color: #444;
+ height:40px;
+ width: 70px;
+ border-radius: 26%;
+ border-style: none;
+ 
+}
+.btnImgR{
+ /*content:url(http://i.imgur.com/SrCHPwk.jpg);*/
+ background-color: #B00;
+ height:40px;
+ width: 70px;
+ border-radius: 26%;
+ border-style: none;
+}
+.btnImgBig{
+  /*content:url(http://i.imgur.com/CuVUVtE.jpg);*/
+  background-color: #444;
+  height:110px;
+  width: 70px;
+  border-radius: 26%;
+  border-style: none;
+}
+.btnBig{
+  cursor: pointer;
+  display:inline;
+  position:relative;
+  top:-70px;
+}
+
+.btnwordR{
+  color:white;
+  font-size:20px;
+  display:inline;
+  position:relative;
+  top:-35px;
+  left:20px;
+}
+.btn_row{
+  display:inline-block;
+}
+.btnwordBig{
+  color:white;
+  font-size:20px;
+  display:inline;
+  position:relative;
+  top:0px;
+  left:-40px;
+}
