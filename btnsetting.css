@@ -38,12 +38,18 @@
   display: inline-block;
   height:40px;
   width:80px;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
 }
 .btnword{
   color:white;
   font-size:20px;
   display:inline;
   position:relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   top:-35px;
   left:30px;
 }
@@ -54,7 +60,10 @@
  width: 70px;
  border-radius: 26%;
  border-style: none;
- 
+}
+.btnImg:active{
+ /*content:url(http://i.imgur.com/X1yQpBO.jpg);*/
+ background-color: #666;
 }
 .btnImgR{
  /*content:url(http://i.imgur.com/SrCHPwk.jpg);*/
@@ -64,6 +73,9 @@
  border-radius: 26%;
  border-style: none;
 }
+.btnImgR:active{
+ background-color: #D22;
+}
 .btnImgBig{
   /*content:url(http://i.imgur.com/CuVUVtE.jpg);*/
   background-color: #444;
@@ -71,6 +83,9 @@
   width: 70px;
   border-radius: 26%;
   border-style: none;
+}
+.btnImgBig:active{
+  background-color: #666;
 }
 .btnBig{
   cursor: pointer;
@@ -84,6 +99,12 @@
   font-size:20px;
   display:inline;
   position:relative;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   top:-35px;
   left:20px;
 }
@@ -95,6 +116,12 @@
   font-size:20px;
   display:inline;
   position:relative;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   top:0px;
   left:-40px;
 }
