@@ -3,19 +3,28 @@
 }
 #container{
   width:auto;
-  height:700px;
+  height:900px;
   border-style:none;
 }
 #calculator{
-  background-image: url(http://i.imgur.com/UXnjASv.png);
+  /*background-image: url(http://i.imgur.com/UXnjASv.png);*/
+  background-color: #f2f2f2;
   position:relative;
-  height:500px;
+  height:560px;
   width: 400px;
   top:   40px;
   margin: auto;
   border-radius:4%;
   box-shadow: 5px 5px 4px 3px rgba(0,0,0,0.2),-5px 5px 4px 3px rgba(0,0,0,0.3)
               ,-5px -5px 4px 1px rgba(0,0,0,0.15) inset,5px -5px 4px 1px rgba(0,0,0,0.15) inset;
+}
+#title-1{
+	font-size: 36px;
+	font-family: 'Great Vibes', cursive;
+}
+#title-2{
+	font-size: 18px;
+	font-family: 'Puritan', sans-serif;
 }
 #screen{
   background-color:#999;
